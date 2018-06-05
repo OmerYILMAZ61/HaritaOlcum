@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:background="@drawable/white_border"
+    android:padding="10dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/olcum_noktasi"
+        android:textSize="10dp"
+        android:id="@+id/tvOlcum"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvOlcum"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/tire"
+        android:textSize="10dp"
+        android:text="-----------------------------"/>
+
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tire"
+        android:columnCount="2"
+        android:rowCount="6">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/havza"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/il"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ilce"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mahalle_koy"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kod"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gercek_olcum_nok"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="10dp" />
+
+
+    </GridLayout>
+
+
+    <Button
+        android:id="@+id/btnDetay"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignEnd="@+id/grid"
+        android:layout_alignTop="@+id/btnAnaliz"
+        android:text="@string/detay"
+        android:textSize="10dp"
+        android:layout_alignRight="@+id/grid" />
+
+    <Button
+        android:id="@+id/btnAnaliz"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/tvOlcum"
+        android:layout_below="@+id/grid"
+        android:text="@string/analiz"
+        android:textSize="10dp"
+        android:layout_alignLeft="@+id/tvOlcum" />
+
+    <Button
+        android:id="@+id/btnReferansOlcumNok"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnDetay"
+        android:text="@string/referansOlcumNokt"
+        android:textSize="10dp"
+        android:layout_alignParentLeft="true" />
+
+
+</RelativeLayout>

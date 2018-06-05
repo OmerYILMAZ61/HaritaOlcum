@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Harita Olcum</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="api">AIzaSyCyXpVrXCFPCb3kn-RP6MydLtZO6VaGOFU</string>
+
+
+    <string name="olcum_noktasi">Ölçüm Noktası   :</string>
+    <string name="havza">Havza           :</string>
+    <string name="il">İl              :</string>
+    <string name="ilce">İlçe            :</string>
+    <string name="mahalle_koy">Mahalle/Köy     :</string>
+    <string name="kod">KOD             :</string>
+    <string name="gercek_olcum_nok">Gerçek Ölçüm Noktası:</string>
+
+    <string name="detay">Detay</string>
+    <string name="analiz">Analiz</string>
+    <string name="referansOlcumNokt">Referans Ölçüm Noktası Ekle</string>
+
+</resources>
